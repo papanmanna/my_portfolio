@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/intro"
+        android:title="@string/intro"
+        android:icon="@drawable/ic_user"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/instagram"
+        android:title="@string/insta"
+        android:icon="@drawable/ic_instagram"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/git"
+        android:title="@string/git"
+        android:icon="@drawable/ic_github"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/playstore"
+        android:title="@string/playstore"
+        android:icon="@drawable/ic_playstore"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contact"
+        android:icon="@drawable/ic_email"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>

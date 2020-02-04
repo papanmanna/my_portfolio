@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="title"
+            type="String" />
+    </data>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:background="@color/transparent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_top_rounded_corners_bg"
+            android:gravity="center"
+            app:elevation="4dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+
+            <com.example.myportfolio.TextViewMerrieWeatherBold
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginBottom="4dp"
+                android:singleLine="true"
+                android:text="@{title}"
+                android:textColor="@color/white"
+                android:transitionName="title" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+</layout>

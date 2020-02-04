@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_head_height">240dp</dimen>
+    <dimen name="top_head_background_height">180dp</dimen>
+
+
+    <dimen name="default_collapsed_image_size">45dp</dimen>
+    <dimen name="default_expanded_image_size">135dp</dimen>
+
+    <dimen name="default_collapsed_text_size">4dp</dimen>
+    <dimen name="default_expanded_text_size">11dp</dimen>
+
+    <dimen name="avatar_margin">8dp</dimen>
+    <dimen name="activity_margin">8dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+</resources>
